@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14296.2" systemVersion="18A336e" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MyFriendCoreClass" representedClassName="MyFriendCoreClass" syncable="YES" codeGenerationType="class">
+        <attribute name="isSelected" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="timesSelected" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userActive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userID" attributeType="String" syncable="YES"/>
+        <attribute name="userName" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyFriendRequestCoreClass" representedClassName="MyFriendRequestCoreClass" syncable="YES" codeGenerationType="class">
+        <attribute name="hasSeen" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isOutbound" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userID" attributeType="String" syncable="YES"/>
+        <attribute name="userName" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyProfileCoreClass" representedClassName="MyProfileCoreClass" syncable="YES" codeGenerationType="class">
+        <attribute name="ghostName" attributeType="String" defaultValueString="Ghost Name" syncable="YES"/>
+        <attribute name="userHandle" attributeType="String" defaultValueString="error" syncable="YES"/>
+        <attribute name="userID" attributeType="String" defaultValueString="error" syncable="YES"/>
+        <attribute name="userName" attributeType="String" defaultValueString="error" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MyFriendCoreClass" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="MyFriendRequestCoreClass" positionX="-63" positionY="18" width="128" height="105"/>
+        <element name="MyProfileCoreClass" positionX="-63" positionY="27" width="128" height="105"/>
+    </elements>
+</model>
